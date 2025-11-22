@@ -1,0 +1,9 @@
+Procedure:
+
+1.) Define Nmax in analysis
+2.) Run Print_all_levels.py -- it will output a file called load_rate_input_Nmax....txt
+3.) Go to Hydra server (AxBack directory)
+4.) Copy load_max... file to scripts directory AND to rate_sve directory
+5.) Modify Compute_Rates.py such that the input file is the new file in the directory and run
+6.) In the julia analysis, the load_rate_input_Nmax file will be read with the appropriate value of Nmax in the run, and all relevant files in the directory will be computed. [need to code up]
+7.) After all files have been computed, you should be good to go.
